@@ -8,15 +8,15 @@ function Header({showDisplay, login}){
     var email=(res.profileObj.email)
     console.log(res)
     var n = email.search("@nituk.ac.in");
-    if(n>=0){
+    // if(n>=0){
     login(res.profileObj)
     
     console.log('access granted')
     SetLogin(<div>{res.Qs.Te}  <img width="50px" height="50px" src={res.profileObj.imageUrl} /></div>)
     
-  }
-    else
-    console.log('access denied')
+  // }
+  //   else
+    // console.log('access denied')
 
   }
   const rejectGoogle = (res)=>{
