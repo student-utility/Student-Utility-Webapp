@@ -23,7 +23,7 @@ function Header({showDisplay, login}){
     console.log(res)
   }
   var [loggedIn,SetLogin] = useState(<GoogleLogin
-    clientId="60439721996-c62teef5tv4blkleo0ljjh38qpqqnf0n.apps.googleusercontent.com"
+    clientId="60439721996-l9td0h43i6m286h1c04ausu040rcnqum.apps.googleusercontent.com"
     buttonText="Login"
     onSuccess={responseGoogle}
     onFailure={rejectGoogle}
