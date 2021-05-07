@@ -1,0 +1,46 @@
+table{
+    width: 100%;
+    justify-content: space-evenly;
+    
+    border: 5px solid black;
+
+    
+}
+td{
+    border: 5px solid black;
+}
+th{
+    justify-content: space-evenly;
+    width: 20%;
+
+}
+textarea{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+textarea:hover{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    background-color: gray;
+}
+.contest_table>table>tr>td:hover{
+    background-color: gray;
+    padding: 10px;
+
+    
+}
+
+.contest_time{
+    justify-content: space-evenly;
+    display: flex;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+}
+.contest_time{
+    justify-content: space-evenly;
+    display: flex;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+}

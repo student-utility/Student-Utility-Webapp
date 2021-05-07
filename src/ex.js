@@ -1,0 +1,5 @@
+var a = new Date().toLocaleTimeString()
+console.log(a)
+console.log(a.split(':'))
+console.log((a.slice(0,2)))
+console.log((a.slice(3,5)))

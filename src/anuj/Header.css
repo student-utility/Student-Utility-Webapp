@@ -1,0 +1,9 @@
+.header_option{
+    font-display: flex;
+    padding: 50px;
+
+}
+.header{
+    border-bottom-color: black ;
+    display: flex;
+}

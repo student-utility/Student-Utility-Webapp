@@ -1,0 +1,9 @@
+.notice_board{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: gray;
+}
+
+.notice_board_middle>center>img{
+    width: 50%;
+}
